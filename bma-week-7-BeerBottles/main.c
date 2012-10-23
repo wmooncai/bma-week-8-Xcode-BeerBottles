@@ -2,17 +2,22 @@
 //  main.c
 //  bma-week-7-BeerBottles
 //
-//  Created by Wally on 10/22/12.
+//  Created by W. Mooncai on 10/22/12.
 //  Copyright (c) 2012 W M. All rights reserved.
+//
+//  Crossfire Building Mobile Apps Homework Week 8
 //
 
 #include <stdio.h>
+#include <stdlib.h>
 
 void adjustVariables(int count, char **bttlTxt
                      , char **bttlTxtLess, char **drnkTxt)
 {
+    // These operations were functioned to satisfy HW requirements.
+    
     count--;
-    int countLess = count -1;
+    int countLess = count - 1;
     
     *bttlTxt = (count == 0) ? "bottle" : "bottles";
     
@@ -55,10 +60,16 @@ void singTheSong(int numberOfBottles)
 
 int main(int argc, const char * argv[])
 {
-    singTheSong(99);
+    int bottlesOfBeerOnTheWall = 99;
+    
+    if (argc == 2) bottlesOfBeerOnTheWall = atoi(argv[1]);
+    
+    printf("%d bottles of beer on the wall!\n\n", bottlesOfBeerOnTheWall);
+    
+    singTheSong(bottlesOfBeerOnTheWall);
+    
+    printf("\nmmmm... That was goooood, <buuuuuuuuurp>!");
 
-    // insert code here...
-    // printf("Hello, World!\n");
     return 0;
 }
 
