@@ -11,6 +11,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#include "bma-week-8-BeerBottles.h"
+
 void adjustVariables(int count, char **bttlTxt
                      , char **bttlTxtLess, char **drnkTxt)
 {

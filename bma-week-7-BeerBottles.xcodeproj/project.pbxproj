@@ -28,6 +28,7 @@
 		3E26388016360EA0002A22CE /* bma-week-7-BeerBottles */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "bma-week-7-BeerBottles"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E26388416360EA0002A22CE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		3E26388616360EA0002A22CE /* bma_week_7_BeerBottles.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = bma_week_7_BeerBottles.1; sourceTree = "<group>"; };
+		3E2638A616370E74002A22CE /* bma-week-8-BeerBottles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bma-week-8-BeerBottles.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 			children = (
 				3E26388416360EA0002A22CE /* main.c */,
 				3E26388616360EA0002A22CE /* bma_week_7_BeerBottles.1 */,
+				3E2638A616370E74002A22CE /* bma-week-8-BeerBottles.h */,
 			);
 			path = "bma-week-7-BeerBottles";
 			sourceTree = "<group>";
